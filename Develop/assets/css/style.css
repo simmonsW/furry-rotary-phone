@@ -1,43 +1,17 @@
-/**********
-* GENERAL *
-**********/
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.primary-font {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.secondary-font {
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-}
-
-/*******
-* BODY *
-*******/
-
 body {
     background-color: #d9dcd6;
     font-size: 16px;
 }
 
-/*********
-* HEADER *
-*********/
+/***************
+* HEADER / NAV *
+***************/
 
 header {
     padding: 20px;
@@ -53,10 +27,6 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
-/******
-* NAV *
-******/
 
 nav {
     padding-top: 15px;
@@ -77,6 +47,20 @@ nav ul li {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+}
+
+/*********
+* FOOTER *
+*********/
+
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
 }
 
 /*******
@@ -148,16 +132,24 @@ nav ul li a {
     max-width: 150px;
 }
 
-/*********
-* FOOTER *
-*********/
+/************
+* UTILITIES *
+************/
 
-.footer {
-    padding: 30px;
-    clear: both;
-    text-align: center;
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.footer h2 {
-    font-size: 20px;
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.primary-font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.secondary-font {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
