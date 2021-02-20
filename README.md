@@ -1,6 +1,6 @@
 # Horiseon Code Refactor
 
- <img src="Develop/assets/images/Horiseon-mock-up.png" alt="Horiseon mock up" width="400px" />
+ <img src="assets/images/Horiseon-mock-up.png" alt="Horiseon mock up" width="400px" />
 
 ## Description
 
